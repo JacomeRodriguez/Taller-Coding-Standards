@@ -19,11 +19,11 @@
 		</module> 
 		   
 		<!-- New Modules-->
-		<module name="Javadoc-Method"/>
-		<module name="Method-Name">
+		<module name="JavadocMethod"/>
+		<module name="MethodName">
 		   <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
 		</module>
-		<module name="Whitespace-After">
+		<module name="WhitespaceAfter">
 		  <property name="tokens" value="COMMA, SEMI"/>
 		</module>  
 		
