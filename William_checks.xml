@@ -16,6 +16,16 @@
 		</module>
 		<module name="JavadocType">
 			<property name="authorFormat" value="\S" />
+		</module> 
+		   
+		<!-- New Modules-->
+		<module name="Javadoc-Method"/>
+		<module name="Method-Name">
+		   <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
 		</module>
+		<module name="Whitespace-After">
+		  <property name="tokens" value="COMMA, SEMI"/>
+		</module>  
+		
 	</module>
 </module>
